@@ -1,5 +1,4 @@
-| Name | Roll no. | Issue no. |
-|:-----|--------:|---------:|
-
+| Name | Github-ID | College name | Roll no. | Issue no. |
+|:-----|--------:|---------|-------:|------:|
 <!-- ADD ABOVE THIS-->
-<!--|Surya Raghuram | IIT2024093| 1|>
+<!--example |P.Diddy | KoveLids |Reyansh College| IIT2024069| 0|>

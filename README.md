@@ -7,13 +7,25 @@ Ready to contribute? Check out our [Contributing Guide](Contributing.md). It cov
 ### Prerequisites
 Before you begin working on this project, ensure your environment meets the following requirements.
 
-#### Core Tooling
+#### Core Tooling (All OS)
 - **Flutter SDK**: `^3.27.0`
 - **Dart SDK**: `3.6.0` (bundled with Flutter 3.27.x)
-- **Android SDK**:
-  - **Compile SDK / Target SDK**: `API level 35` (Android 15)
-- **Java Development Kit (JDK)**: `17` or `21`  
-  JDK 17 is recommended for maximum compatibility with Android tooling.
+- **Java Development Kit (JDK)**: `17` or `21`
+
+#### Platform-Specific Tooling
+- **Android SDK** (Linux / macOS / Windows):
+  - Compile SDK / Target SDK: `API level 35` (Android 15)
+- **iOS SDK** (macOS only):
+  - Requires Xcode and iOS platform tools
+
+#### OS Compatibility
+This project uses Flutter and Firebase and is **largely OS-independent**.
+
+- The setup instructions apply to **Linux, macOS, and Windows**.
+- Android development is supported on all three operating systems.
+- **iOS and macOS builds require macOS** with Xcode installed.
+- Installation steps for the Android SDK and JDK may differ slightly by OS, but the required versions remain the same.
+
 
 #### Required Flutter Packages
 
